@@ -244,3 +244,4 @@ C:\Users\3mtec\Desktop\ProjetoEmprestimo\ProjetoEmprestimo\obj\Debug\net8.0\refi
 C:\Users\3mtec\Desktop\ProjetoEmprestimo\ProjetoEmprestimo\obj\Debug\net8.0\ProjetoEmprestimo.pdb
 C:\Users\3mtec\Desktop\ProjetoEmprestimo\ProjetoEmprestimo\obj\Debug\net8.0\ProjetoEmprestimo.genruntimeconfig.cache
 C:\Users\3mtec\Desktop\ProjetoEmprestimo\ProjetoEmprestimo\obj\Debug\net8.0\ref\ProjetoEmprestimo.dll
+C:\Users\3MTEC\Desktop\ProjetoEmprestimo\ProjetoEmprestimo\obj\Debug\net8.0\swae.build.ex.cache
