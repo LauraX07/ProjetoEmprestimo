@@ -35,5 +35,79 @@ namespace ProjetoEmprestimo.CarrinhoCompra
                 return new List<Livro>();
             }
         }
+
+        //Cadastrar
+        public void Cadastrar(Livro item)
+        {
+            List<Livro> Lista;
+            if (_cookie.Existe(Key))
+            {
+                Lista = Consultar();
+                var ItemLocalizado = Lista.SingleOrDefault(a => a.codLivro == item.codLivro);
+
+                if (ItemLocalizado == null)
+                {
+                    Lista.Add(item);
+                }
+
+                else
+                {
+                    ItemLocalizado.quantidade = ItemLocalizado.quantidade + 1;
+                }
+            }
+
+            else
+            {
+                Lista = new List<Livro>();
+                Lista.Add(item);
+            }
+            // Criar o método salvar
+            Salvar(Lista);
+        }
+
+        //Atualiza
+        public void Atualizar(Livro item)
+        {
+   
+            var Lista = Consultar();
+            var ItemLocalizado = Lista.SingleOrDefault(a => a.codLivro == item.codLivro);
+    
+            if (ItemLocalizado != null)
+            {
+                ItemLocalizado.quantidade = item.quantidade + 1;
+                Salvar(Lista);
+            }
+        }
+
+        //Remove item
+        public void Remover(Livro item)
+        {
+
+            var Lista = Consultar();
+            var ItemLocalizado = Lista.SingleOrDefault(a => a.codLivro == item.codLivro);
+
+            if (ItemLocalizado != null)
+            {
+                Lista.Remove(ItemLocalizado);
+                Salvar(Lista);
+            }
+        }
+
+        //Verifica se existe
+        public bool Existe(string Key)
+        {
+            if (_cookie.Existe(Key))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        //Remove todos itens do carrinho
+        public void RemoverTodos()
+        {
+            _cookie.Remover(Key);
+        }
     }
 }
