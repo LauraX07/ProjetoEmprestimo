@@ -44,7 +44,7 @@ namespace ProjetoEmprestimo.Repository
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("select * from tbLivro where codLivro=@cmd", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbLivro where codLivro=@cod", conexao);
                 cmd.Parameters.Add("@cod", MySqlDbType.VarChar).Value=id;
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -55,8 +55,8 @@ namespace ProjetoEmprestimo.Repository
                 while (dr.Read())
                 {
                     livro.codLivro = Convert.ToInt32(dr["codLivro"]);
-                    livro.nomeLivro = (String)(dr["codLivro"]);
-                    livro.imagemLivro = (String)(dr["codLivro"]);
+                    livro.nomeLivro = (String)(dr["nomeLivro"]);
+                    livro.imagemLivro = (String)(dr["imagemLivro"]);
                 }
                 return livro;
             }
@@ -81,8 +81,8 @@ namespace ProjetoEmprestimo.Repository
                         new Livro
                         {
                             codLivro = Convert.ToInt32(dr["codLivro"]),
-                            nomeLivro = (String)(dr["codLivro"]),
-                            imagemLivro = (String)(dr["codLivro"]),
+                            nomeLivro = (String)(dr["nomeLivro"]),
+                            imagemLivro = (String)(dr["imagemLivro"]),
                         });
                 }
                 return Livrolist;

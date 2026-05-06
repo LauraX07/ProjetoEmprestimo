@@ -25,6 +25,6 @@ codEmp int references tbEmprestimo(codEmp),
 codLivro int references tbLivro(codLivro)
 );
 
-select * from itensEmp;
+select * from tbLivro;
 
 insert into tbUsuario values (default, 'Nilson'),(default, 'Bruno');

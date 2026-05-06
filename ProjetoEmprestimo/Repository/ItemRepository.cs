@@ -23,7 +23,7 @@ namespace ProjetoEmprestimo.Repository
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("insert into itensEmp values(defaut, @codEmp, @codLivro)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into itensEmp values(default, @codEmp, @codLivro)", conexao);
 
                 cmd.Parameters.Add("@codEmp", MySqlDbType.VarChar).Value = item.codEmp;
                 cmd.Parameters.Add("@codLivro", MySqlDbType.VarChar).Value = item.codLivro;

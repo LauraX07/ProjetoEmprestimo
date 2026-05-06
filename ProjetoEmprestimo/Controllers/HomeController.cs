@@ -53,7 +53,7 @@ namespace ProjetoEmprestimo.Controllers
             }
         }
 
-        //Carrinho sw compra
+        //Carrinho de compra (Adicionando aa interface do carrinho)
         public IActionResult Carrinho()
         {
             return View(_cookieCarrinhoCompra.Consultar());
@@ -86,7 +86,7 @@ namespace ProjetoEmprestimo.Controllers
             for (int i = 0; i < carrinho.Count; i++)
             {
                 mdI.codEmp = Convert.ToInt32(emprestimo.codEmp);
-                mdI.codLivro = Convert.ToString(carrinho[1].codLivro);
+                mdI.codLivro = Convert.ToString(carrinho[i].codLivro);
 
                 _itemRepository.Cadastrar(mdI);
             }
