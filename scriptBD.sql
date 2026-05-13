@@ -25,6 +25,11 @@ codEmp int references tbEmprestimo(codEmp),
 codLivro int references tbLivro(codLivro)
 );
 
+create table Categoria(
+Id int primary key auto_increment,
+Nome varchar(50)
+);
+
 select * from tbLivro;
 
 insert into tbUsuario values (default, 'Nilson'),(default, 'Bruno');

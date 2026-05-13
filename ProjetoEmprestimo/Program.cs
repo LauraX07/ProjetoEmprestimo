@@ -12,10 +12,10 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
-
-
 builder.Services.AddScoped<IEmprestimoRepository, EmprestimoRepository>();
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {

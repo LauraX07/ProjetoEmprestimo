@@ -6144,11 +6144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo.csproj",
+      "projectUniqueName": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo.csproj",
       "projectName": "ProjetoEmprestimo",
-      "projectPath": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo.csproj",
+      "projectPath": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo.csproj",
       "packagesPath": "C:\\Users\\3mtec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\ProjetoEmprestimo\\obj\\",
+      "outputPath": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
