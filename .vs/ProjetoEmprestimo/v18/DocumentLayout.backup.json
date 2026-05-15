@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "ProjetoEmprestimo\\Views\\Shared\\Components\\Menu\\Default.cshtml",
               "ToolTip": "C:\\Users\\3mtec\\Desktop\\ProjetoEmprestimo\\ProjetoEmprestimo\\Views\\Shared\\Components\\Menu\\Default.cshtml",
               "RelativeToolTip": "ProjetoEmprestimo\\Views\\Shared\\Components\\Menu\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-13T14:52:21.436Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T14:55:08.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:55:08.763Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Repository\\EmprestimoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:47:22.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:47:22.832Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T11:21:16.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T11:21:16.022Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Repository\\CategoriaRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:39:34.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:39:34.897Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T14:23:19.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:23:19.562Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Repository\\Contract\\IEmprestimoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:47:21.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:47:21.53Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Component\\MenuViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:08:37.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:08:37.724Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:23:57.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:23:57.009Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Repository\\Contract\\ICategoriaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:11:40.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T14:11:40.65Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "ProjetoEmprestimo\\Models\\Livro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T15:02:54.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T15:02:54.301Z"
             },
             {
               "$type": "Document",

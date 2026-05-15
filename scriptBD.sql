@@ -33,3 +33,5 @@ Nome varchar(50)
 select * from tbLivro;
 
 insert into tbUsuario values (default, 'Nilson'),(default, 'Bruno');
+
+insert into Categoria values (default, "Romance");
